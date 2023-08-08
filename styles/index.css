@@ -1,0 +1,146 @@
+:root {
+  --primary: #6900cd;
+  --lightPrimary: #6769a6;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  min-width: 300px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.divider {
+  height: 2px;
+  background: #e7e7e7;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 15px;
+}
+
+.card {
+  padding: 8px;
+  width: 30%;
+  background: #f5f2f2;
+  border-radius: 15px;
+  /* margin-left: 15px; */
+  box-shadow: 1px 1px 4px 3px #e7e7e7;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: #e7e7e7;
+}
+
+.flex_container {
+  display: flex;
+  padding: 5px;
+}
+
+.justifier_navbar {
+  justify-content: space-between;
+ 
+}
+
+.nav_item {
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.logo {
+  border: 1px dashed var(--primary);
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px;
+  background-color: var(--lightPrimary);
+  color: white;
+  letter-spacing: 5px;
+  /* margin: 20px */
+}
+
+.navbar {
+  background: #ccc;
+
+background: rgb(204, 204, 204);
+ position: fixed;
+ width: 100%;
+ padding: 20px;
+
+ /* z-index: 11; */
+
+
+    
+}
+
+.contact_form{
+    width: 350px;
+}
+
+.profile_image {
+  height: 300px;
+  background: url(https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+  width: 300px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+}
+
+.primary_button {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background: var(--primary);
+  color: white;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 5px #d6c3e6;
+  transition: all 0.2s;
+}
+
+.primary_button:hover {
+  padding: 18px;
+}
+
+
+.primary_banner{
+    background-color: var(--primary);
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact_picture{
+    background: url(https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+input, textarea {
+ border: 1px solid #ccc;
+padding: 15px;
+border-radius: 10px;
+margin-bottom: 10px;
+width: 200px;
+}
+
+.footer {
+    background: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
